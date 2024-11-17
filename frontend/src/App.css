@@ -1,0 +1,83 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  form {
+    background-color:bisque;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color:bisque;
+    
+  }
+  table th, table td {
+    padding: 12px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+  }
+  table th {
+    background-color:#28a745;
+    color: white;
+  }
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  button {
+    margin: 5px;
+  }
+
+  button[onClick="Cancel"] {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  button[onClick="Save"] {
+    background-color: #28a745;
+  }
+  button[onClick="Save"]:hover {
+    background-color: #218838;
+  }
+  button[onClick="Cancel"]:hover {
+    background-color: #c6c6c6;
+  }
+  
